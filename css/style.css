@@ -1,0 +1,129 @@
+* {
+  scroll-behavior: smooth; }
+  * h2 {
+    font-family: 'Roboto', sans-serif; }
+  * h1 {
+    font-family: 'Roboto', sans-serif; }
+  * a {
+    font-family: 'Roboto', sans-serif; }
+  * p {
+    font-family: 'Roboto', sans-serif; }
+
+/* navigation bar===== */
+#header-section {
+  padding-top: 30px;
+  background-image: url(../img/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #header-section .header-inner {
+    padding-top: 40px; }
+  #header-section a {
+    font-size: 12px; }
+  #header-section .dropdown .en {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; }
+  #header-section .header-cross a {
+    font-size: 14px; }
+  #header-section .header-cross .card-color {
+    background-color: #f3a032; }
+  #header-section .header-cross .card:hover {
+    background-color: #f3a032;
+    transition: .8s; }
+
+#why-we {
+  margin-top: 150px; }
+
+#how-we-work .card-color {
+  background-color: #f3a032; }
+
+#how-we-work .card {
+  box-shadow: 5px 5px 2px #fff; }
+
+#how-we-work .card:hover {
+  background-color: #f3a032;
+  transition: .5s; }
+
+#advertisers p {
+  color: #dadada; }
+
+#advertisers a {
+  color: #f3a032; }
+
+#Agencies img {
+  height: 30px;
+  width: 30px; }
+
+#Agencies p {
+  color: #767676;
+  line-height: 45px; }
+
+#publisher {
+  background-image: url(../img/laptop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  #publisher p {
+    line-height: 45px; }
+
+/* media query========= */
+@media (max-width: 992px) {
+  #header-section {
+    background-position: center; }
+  #publisher p {
+    line-height: 38px;
+    font-size: 25px; } }
+
+@media (max-width: 1199px) {
+  #header-section {
+    background-position: center; } }
+
+@media (max-width: 476px) {
+  #header-section h1 {
+    font-size: 2rem; } }
+
+@media (min-width: 1200px) {
+  #header-section {
+    max-height: 680px; } }
+
+@media (max-width: 1200px) {
+  #why-we {
+    margin-top: 40px; } }
+
+@media (max-width: 775px) {
+  #Agencies p {
+    line-height: 30px;
+    font-size: 18px; }
+  #publisher p {
+    line-height: 25px;
+    font-size: 18px; }
+  #fact .upper p {
+    font-size: 18px; } }
+
+@media (max-width: 576px) {
+  #Agencies p {
+    line-height: 25px;
+    font-size: 14px; }
+  #Agencies img {
+    height: 25px;
+    width: 25px; }
+  #publisher p {
+    line-height: 25px;
+    font-size: 14px; }
+  #fact .upper p {
+    font-size: 14px; } }
+
+@media (max-width: 476px) {
+  #header-section h1 {
+    font-size: 2rem; }
+  #why-we h1 {
+    font-size: 2rem; }
+  #how-we-work h1 {
+    font-size: 2rem; }
+  #advertisers h1 {
+    font-size: 2rem; }
+  #Agencies h1 {
+    font-size: 2erm; }
+  #publisher {
+    font-size: 2rem; }
+  #fact h1 {
+    font-size: 2rem; } }
